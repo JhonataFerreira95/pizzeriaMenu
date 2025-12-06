@@ -89,6 +89,10 @@ p{
     font-size: 1.25rem;
 }
 
+.menu-list{
+    list-style: none;
+}
+
 .menu-list > li{
     background-color: var(--color-light);
     border-radius: 0.5rem;
@@ -105,6 +109,10 @@ p{
     border-top-right-radius: 0.5rem;
     object-fit: cover;
     width: 100%;
+}
+
+.menu-list h3, p{
+    padding: 1rem 1.25rem 0;
 }
 
 footer{
