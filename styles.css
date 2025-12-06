@@ -123,6 +123,16 @@ p{
     color: var(--color-write);
 }
 
+address{
+    margin: 2rem 0;
+}
+
+address > *{
+    display: inline-block;
+    margin: 1.5rem;
+    text-align: left;
+}
+
 footer{
     background-color: var(--color-dark);
     color: var(--color-primary);
